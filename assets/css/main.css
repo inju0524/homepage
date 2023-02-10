@@ -71,7 +71,8 @@ body {
      font-weight:900;  
     font-color: #000000;
     border-style: solid;
-    border-width:10px;
+    border-width:5px;
+    border-color: #FFD700;
     }
 
 .glass-container{
