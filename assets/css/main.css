@@ -6,8 +6,7 @@ body {
     -webkit-tap-highlight-color: transparent;
 }
 ::selection {
-    color: #e0e0e0;
-    background: rgba(255,64,129,.35);
+    ;
     }
 #rin-bg {
     top: 0;
