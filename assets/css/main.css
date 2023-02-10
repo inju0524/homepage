@@ -68,10 +68,10 @@ body {
 .bg-y{
     
     background-color: #FFD700;
-    border-color: #000000;
      font-weight: 900;  
     font-color: #000000;
-    border-width: 5px;
+    border-width: 6px;
+    border-color: #000000;
     
     }
 
