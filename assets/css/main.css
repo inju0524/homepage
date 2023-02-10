@@ -20,8 +20,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 50% 50%;
-    background-color: #818181;
-    background-image: linear-gradient( 135deg, #F0FF00 10%, #58CFFB 100%);
+    background-color: #FFFF00;
 }
 #rin-bg:after {
     top: 0;
@@ -59,9 +58,19 @@ body {
     background: rgba(255,255,255,.3);
 }
 
-.juzhong{
+.bg-b{
     
+    background-color: #ffffff;
+     font-weight:900;   
     
+    }
+
+.bg-y{
+    
+    background-color: #FFFF00;
+     font-weight:900;  
+    font-color: #FFFF00
+    border-style: solid;
     }
 
 .glass-container{
