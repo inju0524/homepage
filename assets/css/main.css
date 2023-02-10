@@ -79,6 +79,11 @@ body {
     }
 
 .glass-container{
+    border-style: solid;
+    font-weight: 900;  
+    color: #000000;
+    border-width: 6px;
+    border-color: #000000;
     color: white;
     display: flex;
     justify-content: center;
