@@ -27,19 +27,19 @@
 
 .rin-left-title {
     font-size: 25px;
-    color: white;
+    
     padding-bottom: 2px;
 }
 
 .rin-left-title2 {
     font-size: 15px;
-    color: white;
+    
     margin-bottom: 8px;
 }
 
 .rin-left-slogan {
     font-size: 13px;
-    color: white;
+    
     padding-bottom: 2px;
 }
 .rin-btn-left {
@@ -64,19 +64,19 @@
 
 .rin-card-title {
     font-size: 30px;
-    color: white;
+    
     margin-bottom: 15px;
 }
 
 .rin-card-title2 {
     font-size: 20px;
-    color: white;
+    
     margin-bottom: 5px;
 }
 
 .rin-card-content {
     font-size: 17px;
-    color: white;
+;
     margin-bottom: 5px;
     line-height: 1.5;
 }
@@ -104,7 +104,7 @@
 }
 
 .rin-progress-title {
-    color: white;
+    
     padding-bottom: 6px;
     padding-top: 10px;
 }
@@ -114,7 +114,7 @@
 }
 
 .rin-btn {
-    color: white;
+    
     margin-right: 10px;
     min-width: 100px !important;
 }
@@ -205,7 +205,7 @@
 }
 .rin-article-content{
     padding-top:10px;
-    color: white;
+    
     font-size: 14px;
 }
 #works a{
@@ -216,7 +216,7 @@
 }
 .rin-article-more{
     text-decoration:none;
-    color: white;
+    
     font-size: 13px;
     margin-left: 5px;
 }
