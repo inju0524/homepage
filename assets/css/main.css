@@ -68,6 +68,7 @@ body {
 .bg-y{
     
     background-color: #FFD700;
+    border-style: solid;
      font-weight: 900;  
     color: #000000;
     border-width: 6px;
