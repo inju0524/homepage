@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background: #FFFF00;
+    background: #FFD700;
 }
 * {
     -webkit-tap-highlight-color: transparent;
@@ -19,7 +19,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 50% 50%;
-    background-color: #FFFF00;
+    background-color: #FFD700;
 }
 #rin-bg:after {
     top: 0;
@@ -61,16 +61,17 @@ body {
     
     background-color: #000000;
      font-weight:900;  
-    font-color: #ffff00;
+    font-color: #FFD700;
     
     }
 
 .bg-y{
     
-    background-color: #FFFF00;
+    background-color: #FFD700;
      font-weight:900;  
     font-color: #000000;
     border-style: solid;
+    border-width:10px;
     }
 
 .glass-container{
