@@ -61,7 +61,7 @@ body {
     
     background-color: #000000;
      font-weight: 900;  
-    font-color: #FFD700;
+    color: #FFD700;
     
     }
 
@@ -69,7 +69,7 @@ body {
     
     background-color: #FFD700;
      font-weight: 900;  
-    font-color: #000000;
+    color: #000000;
     border-width: 6px;
     border-color: #000000;
     
