@@ -59,7 +59,7 @@ body {
     background: rgba(255,255,255,.3);
 }
 
-.glass-container{
+#glass-container{
     width: 700px;
     height: 375px;
     color: white;
