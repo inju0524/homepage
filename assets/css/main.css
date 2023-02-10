@@ -60,7 +60,7 @@ body {
 .bg-b{
     
     background-color: #000000;
-     font-weight:900;  
+     font-weight: 900;  
     font-color: #FFD700;
     
     }
@@ -68,10 +68,10 @@ body {
 .bg-y{
     
     background-color: #FFD700;
-     font-weight:900;  
+     font-weight: 900;  
     font-color: #000000;
     border-style: solid;
-    border-width:5px;
+    border-width: 5px;
     border-color: #FFD700;
     }
 
