@@ -8,7 +8,7 @@ body {
 ::selection {
     color: #e0e0e0;
     background: rgba(255,64,129,.35);
-}
+    }
 #rin-bg {
     top: 0;
     left: 0;
@@ -21,7 +21,7 @@ body {
     background-attachment: fixed;
     background-position: 50% 50%;
     background-color: #818181;
-    background-image: url('/assets/img/background.jpg');
+    background-image: linear-gradient( 135deg, #F0FF00 10%, #58CFFB 100%);
 }
 #rin-bg:after {
     top: 0;
@@ -57,4 +57,21 @@ body {
     height: 2px;
     margin: auto;
     background: rgba(255,255,255,.3);
+}
+
+.glass-container{
+    width: 700px;
+    height: 375px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 44px;
+    backdrop-filter: blur(6px);
+    background-color: rgba(0,191,255, 0.026);
+    box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px;
+    border: 2px rgba(255,255,255,0.4) solid;
+    border-bottom: 2px rgba(40,40,40,0.35) solid;
+    border-right: 2px rgba(40,40,40,0.35) solid;
 }
