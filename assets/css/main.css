@@ -86,12 +86,4 @@ body {
     color: #000000;
     border-width: 6px;
     border-color: #000000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    border-radius: 30px;
-    backdrop-filter: blur(15px);
-    background-color: rgba(0,0,0, 0.06);
-    box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px;
-    }
+            }
