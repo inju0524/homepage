@@ -60,7 +60,8 @@ body {
 .bg-b{
     
     background-color: #000000;
-     font-weight:900;   
+     font-weight:900;  
+    font-color: #ffff00
     
     }
 
@@ -68,7 +69,7 @@ body {
     
     background-color: #FFFF00;
      font-weight:900;  
-    font-color: #FFFF00
+    font-color: #000000
     border-style: solid;
     }
 
