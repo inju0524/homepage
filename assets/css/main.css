@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background: #2e2e2c;
+    background: #FFFF00;
 }
 * {
     -webkit-tap-highlight-color: transparent;
@@ -60,7 +60,7 @@ body {
 
 .bg-b{
     
-    background-color: #ffffff;
+    background-color: #000000;
      font-weight:900;   
     
     }
