@@ -58,7 +58,8 @@ body {
 }
 
 .bg-b{
-    
+    margin-top: 0;
+    margin-bottom: 0;
     background-color: #000000;
      font-weight: 900;  
     color: #FFD700;
@@ -66,7 +67,8 @@ body {
     }
 
 .bg-y{
-    
+    margin-top: 0;
+    margin-bottom: 0;
     background-color: #FFD700;
     border-style: solid;
      font-weight: 900;  
