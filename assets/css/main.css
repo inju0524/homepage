@@ -110,7 +110,12 @@ margin: 10px;
     color: #ffd700;
 background-color: #000000;
     font-size: 50px;
-    
+   display: inline-block;
+          position: relative;
+          
+          height: 60px;
+          line-height: 60px;
+          
 }
 
 .geqian::after{
