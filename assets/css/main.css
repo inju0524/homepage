@@ -137,7 +137,10 @@ height: 0;
 border-style: solid;
 border-width: 20px 40px 20px 0;
 border-color: transparent #000 transparent transparent;
-
+position: relative;
+          
+          height: 60px;
+          line-height: 60px;
 }
 
 .geqian::after{
