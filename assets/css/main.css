@@ -95,6 +95,7 @@ padding-left: 30px;
 }
 
 .name2{
+   display: inline-block; 
     padding-right: 30px;
     padding-top: 30px
     
