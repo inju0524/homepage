@@ -91,14 +91,21 @@ body {
 
 .name1{
 display: inline-block;
-padding-left: 30px;
-  padding-top: 18px;  
-    padding-bottom: -5px;
+padding-left: 10px;
+  padding-top: 10px;  
+    padding-bottom: 0px;
 }
 
 .name2{
    display: inline-block; 
-    padding-right: 30px;
-    padding-top: 30px;
+    padding-right: 10px;
+    padding-top: 10px;
     padding-bottom: 0;
     }
+
+.geqian{
+margin: 5px;
+
+}
+
+
