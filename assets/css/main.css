@@ -163,8 +163,15 @@ content:">";
     height: 80px;
     padding: 0 20px;
     text-align: center;
-    
+    position: relative;
     
     }
 
+.centerf{
+margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
