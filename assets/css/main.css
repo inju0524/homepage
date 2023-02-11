@@ -120,17 +120,11 @@ background-color: #000000;
 
 .sanjiao{
     width:15px;
-    margin: 10px;
-    padding-left:0px;
-    padding-right:0px;
-    color: #ffd700;
-background-color: #000000;
-    font-size: 40px;
-   display: inline-block;
-          position: relative;
-          
-          height: 60px;
-          line-height: 60px;
+
+    }
+.geqiandiv{
+    
+
     }
 
 .geqian::after{
