@@ -113,6 +113,27 @@ background-color: #000000;
     
 }
 
+.geqian::after{
+            content: '';
+            position: absolute;
+            right: -10px;
+            top: 5px;
+            height: 50px;
+            width: 3px;     
+            background-color: #fff;
+            animation: san 0.5s steps(1) infinite;
+        }
+        @keyframes san{
+            0%,100%{
+                background-color: #fff;
+            }
+            50%{
+               background-color: transparent;
+            }
+
+        }
+
+
 .btn{
     padding: 0 20px;
     text-align: center;
