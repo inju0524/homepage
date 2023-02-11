@@ -127,7 +127,7 @@
         font-size: 25px!important;
     }
     .rin-left-slogan {
-        font-size: 20px!important;
+        font-size: 3.0em!important;
     }
 }
 
@@ -145,7 +145,7 @@
         font-size: 20px;
     }
     .rin-left-slogan {
-        font-size: 15px;
+        font-size: 3.0em;
     }
     .rin-btn-left {
         width:auto;
