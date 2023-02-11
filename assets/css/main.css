@@ -131,11 +131,11 @@ background-color: #000000;
 { 
 content:" ";
     color: #000;
-    right: 40px;
+    right: -20px;
     width: 0;
 height: 0;
 border-style: solid;
-border-width: 20px 40px 40px 0;
+border-width: 20px 40px 20px 0px;
 border-color: transparent #000 transparent transparent;
 position: relative;
           
