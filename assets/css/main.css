@@ -92,12 +92,13 @@ body {
 .name1{
 display: inline-block;
 padding-left: 30px;
-  padding-top: 30px;  
+  padding-top: 20px;  
+    padding-bottom: 0;
 }
 
 .name2{
    display: inline-block; 
     padding-right: 30px;
-    padding-top: 30px
-    
+    padding-top: 30px;
+    padding-bottom: 0;
     }
