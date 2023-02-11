@@ -127,6 +127,12 @@ background-color: #000000;
 
     }
 
+.geqian::before
+{ 
+content:"测";
+
+}
+
 .geqian::after{
             content: '';
             position: absolute;
