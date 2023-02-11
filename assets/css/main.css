@@ -125,12 +125,12 @@ background-color: #000000;
             top: 5px;
             height: 50px;
             width: 3px;     
-            background-color: #ffd700;
+            background-color: #000;
             animation: san 0.5s steps(1) infinite;
         }
         @keyframes san{
             0%,100%{
-                background-color: #ffd700;
+                background-color: #000;
             }
             50%{
                background-color: transparent;
