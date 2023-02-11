@@ -109,7 +109,7 @@ margin: 10px;
     padding-right:0px;
     color: #ffd700;
 background-color: #000000;
-    font-size: 50px;
+    font-size: 40px;
    display: inline-block;
           position: relative;
           
@@ -121,16 +121,16 @@ background-color: #000000;
 .geqian::after{
             content: '';
             position: absolute;
-            right: -2px;
+            right: -20px;
             top: 5px;
-            height: 50px;
-            width: 3px;     
-            background-color: #000;
+            height: 70px;
+            width: 4px;     
+            background-color: #ffd700;
             animation: san 0.5s steps(1) infinite;
         }
         @keyframes san{
             0%,100%{
-                background-color: #000;
+                background-color: #ffd700;
             }
             50%{
                background-color: transparent;
