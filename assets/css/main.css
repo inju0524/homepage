@@ -123,8 +123,8 @@ background-color: #000000;
             position: absolute;
             right: 3px;
             top: 5px;
-            height: 70px;
-            width: 4px;     
+            height: 65px;
+            width: 6px;     
             background-color: #ffd700;
             animation: san 0.5s steps(1) infinite;
         }
