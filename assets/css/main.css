@@ -129,7 +129,8 @@ background-color: #000000;
 
 .geqian::before
 { 
-content:"测";
+content:"";
+    width: 40px:
 
 }
 
