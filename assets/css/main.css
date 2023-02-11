@@ -129,7 +129,8 @@ background-color: #000000;
 
 .geqian::before
 { 
-content:"";
+content:"1";
+    color: #fff;
     width: 40px:
 
 }
