@@ -87,3 +87,15 @@ body {
     border-width: 6px;
     border-color: #000000;
             }
+
+.name1{
+display: inline-block;
+padding-left: 30px;
+  padding-top: 30px;  
+}
+
+.name2{
+    padding-right: 30px;
+    padding-top: 30px
+    
+    }
