@@ -26,15 +26,15 @@
 }
 
 .rin-left-title {
-    font-size: 4.0em;
+    font-size: 3.5em;
     
     padding-bottom: 2px;
 }
 
 .rin-left-title2 {
-    font-size: 4.0em;
+    font-size: 3.5em;
     
-    margin-bottom: 8px;
+    margin-bottom: 2px;
 }
 
 .rin-left-slogan {
@@ -121,10 +121,10 @@
 
 @media only screen and (min-width: 420px) and (max-width: 1024px) {
     .rin-left-title {
-        font-size: 4.0em!important;
+        font-size: 3.5em!important;
     }
     .rin-left-title2 {
-        font-size: 4.0em!important;
+        font-size: 3.5em!important;
     }
     .rin-left-slogan {
         font-size: 3.0em!important;
@@ -139,10 +139,10 @@
         display:none;
     }
     .rin-left-title {
-        font-size: 4.0em;
+        font-size: 3.5em;
     }
     .rin-left-title2 {
-        font-size: 4.0em;
+        font-size: 3.5em;
     }
     .rin-left-slogan {
         font-size: 3.0em;
