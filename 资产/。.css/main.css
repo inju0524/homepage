@@ -1,7 +1,7 @@
 body {
     margin: 0;
     background: #FFD700;
-    min-width:500;
+    min-width:500px;
 }
 * {
     -webkit-tap-highlight-color: transparent;
