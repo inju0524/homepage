@@ -1,7 +1,6 @@
 body {
     margin: 0;
     background: #FFD700;
-    min-width:500px;
 }
 * {
     -webkit-tap-highlight-color: transparent;
@@ -128,16 +127,14 @@ background-color: #000000;
 
     }
 
-.geqian::before
-{ 
-content:">";
+.geqian::before {
+    content: ">";
+    background: #ffd700;
     color: #ffd700;
-    
+    clip-path: polygon(30% 0, 30% 100%,  100% 50%);
     width: 0;
-
-          
-          
 }
+
 
 .geqian::after{
             content: '';
@@ -176,3 +173,67 @@ margin: 0;
   transform: translate(-50%, -50%);
 }
 
+  .btnlight {
+	        font-weight: 900;  
+            position: relative;
+            color: #000;
+            text-decoration: none;
+            font-size: 20px;
+            text-transform: uppercase;
+            transition: 0.5s;
+
+        }
+ 
+         .btnlight:hover {
+            background: #000;
+            color: #ffd700;
+            box-shadow: 0 0 50px #000;
+            transition-delay: 0.5s;
+        }
+ 
+        .btnlight:nth-child(1) {
+            filter: hue-rotate(115deg);
+        }
+ 
+        .btnlight:nth-child(3) {
+            filter: hue-rotate(270deg);
+        }
+ 
+        .btnlight::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 20px;
+            height: 20px;
+            border-top: 7px solid #000;
+            border-left: 7px solid #000;
+            transition: 0.5s;
+            transition-delay: 0.5s;
+        }
+ 
+        .btnlight:hover::before {
+            width: 100%;
+            height: 100%;
+            transition-delay: 0s;
+        }
+ 
+        .btnlight::after {
+            content: '';
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width: 20px;
+            height: 20px;
+            border-bottom: 7px solid #000;
+            border-right: 7px solid #000;
+            transition: 0.5s;
+            transition-delay: 0.5s;
+        }
+ 
+        .btnlight:hover::after {
+            width: 100%;
+            height: 100%;
+            transition-delay: 0s;
+        }
+   
