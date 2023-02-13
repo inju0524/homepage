@@ -239,7 +239,7 @@ margin: 0;
    
 
 .footerurl{
-margin: 0;
+
     padding-left:0px;
     padding-right:0px;
     color: #ffd700;
@@ -247,7 +247,7 @@ background-color: #000000;
     
    display: inline-block;
           position: relative;
-          display: inline-block;
+          
           height: 40px;
           line-height: 50px;
           
@@ -260,7 +260,7 @@ background-color: #000000;
     content: "https://";
     background: #000;
     color: #ffd700;
-   display: inline-block;
+   
 }
 
 
@@ -269,7 +269,7 @@ background-color: #000000;
             position: absolute;
 height: 15px;
 color: #ffd700;
-                display: inline-block;
+                
             background-color: #000;
             
         }
@@ -277,8 +277,7 @@ color: #ffd700;
 .footerurldiv{
 background: #000;
 hetght: 50px;
-white-space: nowrap;
-display: inline-block;
+
 font-size: 15px;
 }
 
