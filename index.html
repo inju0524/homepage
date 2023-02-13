@@ -332,41 +332,41 @@
          <!-- 定义数组，里面放上文本 -->
         const txttwo  =["home"]; 
         <!-- 定义当前要显示的字符串的第几个字符 -->
-        var index=0;
+        var indextwo=0;
         <!-- 定义文本数组的下标 -->
-        var xiaBiao= 0;
+        var xiaBiaotwo= 0;
         <!-- 定义huan，拿来判断是要实现打字还是删除字效果，初始为真 -->
-        var huan = true;
+        var huantwo = true;
      <!-- 定义一个定时器，200毫秒执行一次 -->
         setInterval(function(){
            <!-- huan为真 -->
-            if(huan){             
+            if(huantwo){             
                 <!-- 给.text标签添加字符，用.slice方法 --> 
-                text.innerHTML = txttwo[xiaBiao].slice(0,++index);
+                text.innerHTML = txttwo[xiaBiaotwo].slice(0,++indextwo);
             }
             else{
               <!-- 给.text标签删除字符，用.slice方法 --> 
-                text.innerHTML = txttwo[xiaBiao].slice(0,index--);
+                text.innerHTML = txttwo[xiaBiaotwo].slice(0,indextwo--);
             }
             
             <!-- 判断当前index是否为当前字符串长度了+3了 ，+3是为了打完后多等会，多走3个啥也不做的轮回-->
-            if(index==txttwo[xiaBiao].length+3)
+            if(indextwo==txttwo[xiaBiao].length+3)
             {
             <!-- huan变为假，开始执行删除文字效果 -->
-                huan = false;
+                huantwo = false;
             }
             <!-- 如果删完了 -->
-            else if(index<0)
+            else if(indextwo<0)
             {   
             <!-- index=0，huan为真，从头开始打字 -->
-                index = 0;
-                huan = true;
+                indextwo = 0;
+                huantwo = true;
                 <!-- 数组下标加1 -->
-                xiaBiao++;
-                if(xiaBiao>=txttwo.length)
+                xiaBiaotwo++;
+                if(xiaBiaotwo>=txttwo.length)
                 {   
                 <!-- 如果数组下标超过了，又回到0 -->
-                    xiaBiao=0; 
+                    xiaBiaotwo=0; 
                 }
             }
 
