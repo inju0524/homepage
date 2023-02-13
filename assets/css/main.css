@@ -268,19 +268,7 @@ background-color: #000000;
             content: '.inju.top';
             position: absolute;
 color: #ffd700;
-            right: 3px;
-            top: 7px;
-            height: 45px;
-            width: 6px;     
+                
             background-color: #000;
-            animation: san 0.5s steps(1) infinite;
-        }
-        @keyframes san{
-            0%,100%{
-                background-color: 000;
-            }
-            50%{
-               background-color: transparent;
-            }
-
+            
         }
