@@ -244,12 +244,12 @@ margin: 0;
     padding-right:0px;
     color: #ffd700;
 background-color: #000000;
-    font-size: 10px;
+    
    display: inline-block;
           position: relative;
           
-          height: 20px;
-          line-height: 30px;
+          height: 40px;
+          line-height: 50px;
           
 }
 
@@ -260,7 +260,7 @@ background-color: #000000;
     content: "https://";
     background: #000;
     color: #ffd700;
-    height: 20px;
+   
 }
 
 
@@ -268,21 +268,23 @@ background-color: #000000;
             content: '.inju.top';
             position: absolute;
 color: #ffd700;
-                height: 20px;
+                
             background-color: #000;
             
         }
 
 .footerurldiv{
 background: #000;
+width: min-width;
 margin: 0;
+font-size: 30px;
 }
 
 .footerurldiv::after{
             content: 'test';
             position: absolute;
 color: #ffd700;
-                height: 20px;
+                
             background-color: #000;
             
         }
