@@ -267,6 +267,7 @@ background-color: #000000;
 .footerurl::after{
             content: '.inju.top';
             position: absolute;
+height: min-height;
 color: #ffd700;
                 
             background-color: #000;
@@ -283,7 +284,8 @@ font-size: 15px;
 
 .footerurldiv::after{
             content: 'test';
-            
+left: 20px;
+            position:relative;
 color: #ffd700;
                 
             background-color: #000;
