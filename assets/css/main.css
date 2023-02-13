@@ -267,10 +267,10 @@ background-color: #000000;
 .footerurl::after{
             content: '.inju.top';
             position: absolute;
-height: 15px;
-color: #ffd700;
+            height: 15px;
+            color: #ffd700;
                 
-            background-color: #000;
+            background: #000;
             
         }
 
