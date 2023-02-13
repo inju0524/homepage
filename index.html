@@ -34,7 +34,7 @@
                 <div class="rin-left-title name1 bg-b"><p class="">银&nbsp;烛</p></div>
                 <div class="rin-left-title2 name2 bg-y"><p class="">INJU</p></div>
             
-              <!--  <div class="rin-left-slogan geqiandiv"><span class="geqian"><span class="sanjiao"></span></span></div>  -->
+              <div class="rin-left-slogan geqiandiv"><span class="geqian geqianjs"><span class="sanjiao"></span></span></div>
 
                 
            
@@ -257,7 +257,7 @@
 -->
 
 
-                <span class="footerurl geqianjs">home</span>
+                <span class="footerurl footerurljs">home</span>
 
                 <div class="rin-tr"></div>
 
@@ -330,43 +330,43 @@
 <!--获取.text标签 -->
         const text = document.querySelector('.footerurljs');
          <!-- 定义数组，里面放上文本 -->
-        const txt  =["home"]; 
+        const txttwo  =["home"]; 
         <!-- 定义当前要显示的字符串的第几个字符 -->
-        var indext=0;
+        var index=0;
         <!-- 定义文本数组的下标 -->
-        var xiaBiaot= 0;
+        var xiaBiao= 0;
         <!-- 定义huan，拿来判断是要实现打字还是删除字效果，初始为真 -->
-        var huant = true;
+        var huan = true;
      <!-- 定义一个定时器，200毫秒执行一次 -->
         setInterval(function(){
-           <!-- huant为真 -->
-            if(huant){             
+           <!-- huan为真 -->
+            if(huan){             
                 <!-- 给.text标签添加字符，用.slice方法 --> 
-                text.innerHTML = txt[xiaBiaot].slice(0,++indext);
+                text.innerHTML = txttwo[xiaBiao].slice(0,++index);
             }
             else{
               <!-- 给.text标签删除字符，用.slice方法 --> 
-                text.innerHTML = txt[xiaBiaot].slice(0,indext--);
+                text.innerHTML = txttwo[xiaBiao].slice(0,index--);
             }
             
             <!-- 判断当前index是否为当前字符串长度了+3了 ，+3是为了打完后多等会，多走3个啥也不做的轮回-->
-            if(indext==txt[xiaBiaot].length+3)
+            if(index==txttwo[xiaBiao].length+3)
             {
-            <!-- huant变为假，开始执行删除文字效果 -->
-                huant = false;
+            <!-- huan变为假，开始执行删除文字效果 -->
+                huan = false;
             }
             <!-- 如果删完了 -->
-            else if(indext<0)
+            else if(index<0)
             {   
-            <!-- indext=0，huant为真，从头开始打字 -->
-                indext = 0;
-                huant = true;
+            <!-- index=0，huan为真，从头开始打字 -->
+                index = 0;
+                huan = true;
                 <!-- 数组下标加1 -->
-                xiaBiaot++;
-                if(xiaBiaot>=txt.length)
+                xiaBiao++;
+                if(xiaBiao>=txttwo.length)
                 {   
                 <!-- 如果数组下标超过了，又回到0 -->
-                    xiaBiaot=0; 
+                    xiaBiao=0; 
                 }
             }
 
