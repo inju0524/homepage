@@ -257,7 +257,7 @@
 -->
 
 
-                <div class="rin-left-slogan geqiandiv"><span class="footerurl"><span class="sanjiao"></span>home</span></div>
+                <span class="footerurl">home</span>
 
                 <div class="rin-tr"></div>
 
@@ -332,41 +332,41 @@
          <!-- 定义数组，里面放上文本 -->
         const txt  =["home"]; 
         <!-- 定义当前要显示的字符串的第几个字符 -->
-        var index=0;
+        var index2=0;
         <!-- 定义文本数组的下标 -->
-        var xiaBiao= 0;
+        var xiaBiao2= 0;
         <!-- 定义huan，拿来判断是要实现打字还是删除字效果，初始为真 -->
-        var huan = true;
+        var huan2 = true;
      <!-- 定义一个定时器，200毫秒执行一次 -->
         setInterval(function(){
-           <!-- huan为真 -->
-            if(huan){             
+           <!-- huan2为真 -->
+            if(huan2){             
                 <!-- 给.text标签添加字符，用.slice方法 --> 
-                text.innerHTML = txt[xiaBiao].slice(0,++index);
+                text.innerHTML = txt[xiaBiao2].slice(0,++index2);
             }
             else{
               <!-- 给.text标签删除字符，用.slice方法 --> 
-                text.innerHTML = txt[xiaBiao].slice(0,index--);
+                text.innerHTML = txt[xiaBiao2].slice(0,index2--);
             }
             
             <!-- 判断当前index是否为当前字符串长度了+3了 ，+3是为了打完后多等会，多走3个啥也不做的轮回-->
-            if(index==txt[xiaBiao].length+3)
+            if(index2==txt[xiaBiao2].length+3)
             {
-            <!-- huan变为假，开始执行删除文字效果 -->
-                huan = false;
+            <!-- huan2变为假，开始执行删除文字效果 -->
+                huan2 = false;
             }
             <!-- 如果删完了 -->
-            else if(index<0)
+            else if(index2<0)
             {   
-            <!-- index=0，huan为真，从头开始打字 -->
-                index = 0;
-                huan = true;
+            <!-- index2=0，huan2为真，从头开始打字 -->
+                index2 = 0;
+                huan2 = true;
                 <!-- 数组下标加1 -->
-                xiaBiao++;
-                if(xiaBiao>=txt.length)
+                xiaBiao2++;
+                if(xiaBiao2>=txt.length)
                 {   
                 <!-- 如果数组下标超过了，又回到0 -->
-                    xiaBiao=0; 
+                    xiaBiao2=0; 
                 }
             }
 
