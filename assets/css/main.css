@@ -273,7 +273,12 @@ color: #ffd700;
             
         }
 
-.footerurl:after::after{
+.footerurldiv{
+background: #000;
+margin: 0;
+}
+
+.footerurldiv::after{
             content: 'test';
             position: absolute;
 color: #ffd700;
