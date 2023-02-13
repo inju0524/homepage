@@ -260,7 +260,7 @@ background-color: #000000;
     content: "https://";
     background: #000;
     color: #ffd700;
-    
+    height: 20px;
 }
 
 
@@ -268,7 +268,7 @@ background-color: #000000;
             content: '.inju.top';
             position: absolute;
 color: #ffd700;
-                
+                height: 20px;
             background-color: #000;
             
         }
