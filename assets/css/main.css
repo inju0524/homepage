@@ -269,9 +269,10 @@ background-color: #000000;
             position: absolute;
             height: 15px;
             color: #ffd700;
-                
-            background: #000;
-            
+            background-color: #000000; 
+            background: #000000;
+            right: 0;
+            top: 0;
         }
 
 .footerurldiv{
@@ -282,10 +283,11 @@ font-size: 15px;
 
 .footerurldiv::after{
             content: 'test';
-left: 100px;
+            
+            left: 100px;
             position:relative;
-color: #ffd700;
-             
-            background: #000;
+            color: #ffd700;
+            background-color: #000000; 
+            background: #000000;
             
         }
