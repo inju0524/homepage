@@ -275,6 +275,17 @@ color: #ffd700;
         }
 
 .footerurldiv{
-background: #000;
 
+font-size: 15px;
+}
+
+
+.footerurldiv::after{
+            content: 'test';
+left: 100px;
+            position:relative;
+color: #ffd700;
+             
+            background: #000;
+            
         }
