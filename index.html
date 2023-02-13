@@ -328,7 +328,7 @@
 
 <script>
 <!--获取.text标签 -->
-        const text = document.querySelector('.footerurljs');
+        const texttwo = document.querySelector('.footerurljs');
          <!-- 定义数组，里面放上文本 -->
         const txttwo  =["home"]; 
         <!-- 定义当前要显示的字符串的第几个字符 -->
@@ -342,15 +342,15 @@
            <!-- huan为真 -->
             if(huantwo){             
                 <!-- 给.text标签添加字符，用.slice方法 --> 
-                text.innerHTML = txttwo[xiaBiaotwo].slice(0,++indextwo);
+                texttwo.innerHTML = txttwo[xiaBiaotwo].slice(0,++indextwo);
             }
             else{
               <!-- 给.text标签删除字符，用.slice方法 --> 
-                text.innerHTML = txttwo[xiaBiaotwo].slice(0,indextwo--);
+                texttwo.innerHTML = txttwo[xiaBiaotwo].slice(0,indextwo--);
             }
             
             <!-- 判断当前index是否为当前字符串长度了+3了 ，+3是为了打完后多等会，多走3个啥也不做的轮回-->
-            if(indextwo==txttwo[xiaBiao].length+3)
+            if(indextwo==txttwo[xiaBiaotwo].length+3)
             {
             <!-- huan变为假，开始执行删除文字效果 -->
                 huantwo = false;
