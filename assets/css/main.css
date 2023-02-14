@@ -288,8 +288,8 @@ font-size: 15px;
             position: absolute;
             clip-path: polygon(30% 0, 30% 100%,  100% 50%);
             
-            right: -60px;
-            bottom: 16px;
+            right: -56px;
+            bottom: 18px;
             height: 30px;
             width: 15px;           
             color: #000;
