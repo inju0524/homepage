@@ -119,7 +119,7 @@
     min-width: 100px !important;
 }
 
-@media only screen and (min-width: 420px) and (max-width: 1023px) {
+@media only screen and (min-width: 420px) and (max-width: 1024px) {
     .rin-left-title {
         font-size: 3.5em!important;
     }
@@ -131,7 +131,7 @@
     }
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1024px) {
     .rin-btn {
         margin-bottom: 10px;
     }
@@ -252,17 +252,17 @@
     text-decoration: none;
 }
 
-@media (min-width: 1023px){
+@media (min-width: 1024px){
 .btnlight {            
 		overflow: hidden;
 	    -webkit-box-reflect: below 1px linear-gradient(transparent, #0002);
         margin-bottom:70px;
         }
 .mdui-col-md-10 {
-    width: 70%;
+    width: 65%;
 }
 .mdui-col-md-2 {
-    width: 30%;
+    width: 35%;
 }
 .btn {
 width: 30%;
