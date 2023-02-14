@@ -286,10 +286,10 @@ font-size: 15px;
             content: 'test';
             clip-path: polygon(30% 0, 30% 100%,  100% 50%);
             height: 30px;
-            right:100px;
-bottom:15px;
+            right: 90px;
+            bottom: 5px;
             position:absolute;
-            color: #ffd700;
+            color: #000;
             background-color: #000000; 
             background: #000000;
             
