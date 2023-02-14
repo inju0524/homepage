@@ -287,9 +287,8 @@ font-size: 15px;
             position: absolute;
             clip-path: polygon(30% 0, 30% 100%,  100% 50%);
             height: 30px;
-            right: 0;
             
-            
+                    
             color: #000;
             background-color: #000000; 
             background: #000000;
