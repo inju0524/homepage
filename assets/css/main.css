@@ -268,7 +268,7 @@ background-color: #000000;
             content: '.inju.top';
             position: absolute;
             
-            color: #6200ed;
+            color: #ffd700;
             background-color: #000000; 
             background: #000000;
             
@@ -285,9 +285,9 @@ font-size: 15px;
 .footerurldiv::after{
             content: 'test';
             clip-path: polygon(30% 0, 30% 100%,  100% 50%);
-            height: 30;
+            height: 30px;
             left: 100px;
-            position:relative;
+            position:absolute;
             color: #ffd700;
             background-color: #000000; 
             background: #000000;
