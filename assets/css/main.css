@@ -304,7 +304,7 @@ font-size: 15px;
 
 @font-face {
   font-family: 'qingxie';
-  src: url('foot/qingxie.otf') format('truetype');
+  src: url('assets/css/font/qingxie.otf') format('truetype');
 }
 
 body {
