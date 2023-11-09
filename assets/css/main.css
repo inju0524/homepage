@@ -302,11 +302,3 @@ font-size: 15px;
 
 }
 
-@font-face {
-  font-family: 'qingxie';
-  src: url('assets/css/font/qingxie.otf') format('truetype');
-}
-
-body {
-  font-family: 'qingxie', sans-serif;
-}
