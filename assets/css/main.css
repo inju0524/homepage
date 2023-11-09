@@ -301,3 +301,12 @@ font-size: 15px;
 .foortersanjiaodiv{
 
 }
+
+@font-face {
+  font-family: 'qingxie';
+  src: url('foot/qingxie.otf') format('truetype');
+}
+
+body {
+  font-family: 'qingxie', sans-serif;
+}
